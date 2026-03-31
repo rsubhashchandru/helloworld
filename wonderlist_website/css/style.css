@@ -16,10 +16,21 @@ a{
     color: inherit; 
 }
 
+.text-center{
+    text-align:center;
+}
+
 .section-title{
     font-size:35px;
     text-align:center;
     margin-bottom:10px;
+}
+
+.section-lead{
+    font-size:25px;
+    text-align:center;
+    margin-bottom:10px;
+    font-style:italic;
 }
 
 .navbar{
@@ -30,6 +41,7 @@ a{
     padding-bottom:5px;
     padding-left:20px;
     padding-right:20px; 
+    
 
     /* align-self:safe;
     padding: 20px;
@@ -87,4 +99,82 @@ a{
 
 .about-text{
     line-height:1.8;
+}
+
+.value{
+    background: rgb(151, 233, 151);
+    padding:35px;
+}
+
+.value-flex{
+    display :flex;
+    text-align:center;
+    gap:20px;
+}
+
+.destination{
+    padding:35px;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.grid-item img{
+    width:100%;
+    border:2px solid #d2e86f;
+    border-radius:15px;
+}
+
+.contact{
+    background: rgb(119, 190, 228);
+    padding:35px;
+
+}
+
+.contact-card{
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:20px;
+    width: 650px;
+    margin:auto;
+}
+
+label{
+    display:block;
+    margin-bottom:10px;
+}
+
+input,textarea{
+    width:100%;
+    font-size:20px;
+    padding:5px;
+    margin-bottom:10px;
+
+}
+
+.btn-primary{
+    background-color: rgb(60, 102, 238);
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.section-title{
+    text-align:center;
+}
+
+footer{
+    background:#000000;
+    padding:20px;
+    color:#ffffff;
+    text-align:center;
+    font-size:20px;
 }
