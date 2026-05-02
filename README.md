@@ -30,10 +30,6 @@ The main purpose of this project is to improve my understanding of web design fu
 
 My goal is to become a skilled Frontend Developer by building projects and improving my design and coding skills consistently.
 
-## 📌 Learning Resources
-
-* Engineering in Kannada HTML & CSS Playlist
-  [Watch Playlist](https://www.youtube.com/watch?v=mVbsESNhDAk&utm_source=chatgpt.com)
 
 ## 🚀 Future Plans
 
